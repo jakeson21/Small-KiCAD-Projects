@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JTAG_Library")(type "KiCad")(uri "${KIPRJMOD}/JTAG_Library.kicad_sym")(options "")(descr ""))
+)
