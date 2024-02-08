@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom_Connectors_JST")(type "KiCad")(uri "D:/git-repos/Small-KiCAD-Projects/Kicad/7.0/footprints/Connectors_JST.pretty")(options "")(descr ""))
+)

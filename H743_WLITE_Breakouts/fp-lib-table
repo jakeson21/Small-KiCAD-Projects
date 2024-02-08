@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "Common_Conn")(type "KiCad")(uri "${KIPRJMOD}/../Kicad/7.0/footprints/Connectors_JST.pretty")(options "")(descr ""))
+  (lib (name "Common_SO")(type "KiCad")(uri "${KIPRJMOD}/../Kicad/7.0/footprints/Package_SO.pretty")(options "")(descr ""))
+)

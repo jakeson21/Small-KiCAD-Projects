@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Simple_Curve_Tracer.kicad_pro",
+    "filename": "H743_WLITE_RC_GPS_CAM_TLM_Breakout.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -268,23 +268,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -292,12 +275,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "*9V"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -346,8 +324,16 @@
   },
   "sheets": [
     [
-      "b54cce84-a631-421c-a537-fa552194b252",
+      "6c144184-8fa5-483c-bdf3-4f1ed363fa89",
       ""
+    ],
+    [
+      "2cf23a94-3f2a-41c0-a223-b26adf6b47d8",
+      "Camera"
+    ],
+    [
+      "3de9e3ac-4939-45f5-9f1d-abda30de1abb",
+      "gps_tlm_rc"
     ]
   ],
   "text_variables": {}

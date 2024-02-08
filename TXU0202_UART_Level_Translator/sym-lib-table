@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "D:/git-repos/Small-KiCAD-Projects/H743_WLITE_Breakouts/Project_Library.kicad_sym")(options "")(descr ""))
+)

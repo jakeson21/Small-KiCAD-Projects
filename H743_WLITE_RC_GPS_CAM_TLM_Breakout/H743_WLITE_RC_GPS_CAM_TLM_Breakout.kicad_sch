@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6c144184-8fa5-483c-bdf3-4f1ed363fa89)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 165.1 50.8) (size 54.61 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2cf23a94-3f2a-41c0-a223-b26adf6b47d8)
+    (property "Sheetname" "Camera" (at 165.1 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "camera.kicad_sch" (at 165.1 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H743_WLITE_RC_GPS_CAM_TLM_Breakout"
+        (path "/6c144184-8fa5-483c-bdf3-4f1ed363fa89" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 50.8) (size 55.88 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3de9e3ac-4939-45f5-9f1d-abda30de1abb)
+    (property "Sheetname" "gps_tlm_rc" (at 63.5 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gps_tlm_rc.kicad_sch" (at 63.5 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H743_WLITE_RC_GPS_CAM_TLM_Breakout"
+        (path "/6c144184-8fa5-483c-bdf3-4f1ed363fa89" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
