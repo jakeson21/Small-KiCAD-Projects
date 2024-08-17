@@ -45,7 +45,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "45_degree_only": false,
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -91,14 +92,14 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
-        "text_thickness": "ignore",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -110,6 +111,8 @@
         "zones_intersect": "error"
       },
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.15239999999999998,
         "min_connection": 0.15239999999999998,
@@ -144,7 +147,7 @@
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -153,7 +156,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -162,7 +165,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -180,7 +183,8 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
     },
     "layer_presets": [],
     "viewports": []
@@ -450,12 +454,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "*9V"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
